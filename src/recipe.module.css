@@ -1,0 +1,126 @@
+/* THIS STYLING IS ONLY RELATED TO THE RECIPE COMNPONENTS USING THE CSS MODULE STYLING */
+
+.recipe {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.208);
+  margin: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: rgba(255, 255, 255, 0.836);
+  align-items: center;
+  width: 40%;
+  backdrop-filter: blur(7px);
+}
+
+.recipe h1 {
+  font-size: 1.8rem;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.708);
+  text-align: center;
+}
+.image {
+  border-radius: 20px;
+  width: 180px;
+  height: 180px;
+  margin: 10px 0;
+  border: 3px solid red;
+  padding: 3px;
+}
+
+.recipe p {
+  text-transform: uppercase;
+  color: green;
+  line-height: 1.5em;
+}
+.recipe p span {
+  color: red;
+  font-weight: 600;
+}
+
+.recipe h4 {
+  color: rgb(116, 4, 4);
+  margin: 7px 0;
+  text-decoration: underline;
+  letter-spacing: 3px;
+}
+
+.recipe ul {
+  margin-bottom: 20px;
+  padding: 0 20px;
+  color: green;
+  max-width: 300px;
+  line-height: 2em;
+}
+
+@media (max-width: 350px) {
+  .recipe {
+    width: 100%;
+    padding: 8px;
+    margin: 10px;
+  }
+  .recipe h1 {
+    font-size: 1.4rem;
+  }
+  .image {
+    width: 140px;
+    height: 140px;
+    border: 2px solid red;
+    padding: 2px;
+  }
+  .recipe p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .recipe ul {
+    line-height: 1.5em;
+  }
+}
+
+@media (max-width: 450px) {
+  .recipe {
+    width: 100%;
+    padding: 8px;
+    margin: 10px;
+  }
+  .recipe h1 {
+    font-size: 1.4rem;
+  }
+  .image {
+    width: 160px;
+    height: 160px;
+    border: 3px solid red;
+    padding: 2px;
+  }
+  .recipe p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .recipe ul {
+    line-height: 1.5em;
+  }
+}
+
+@media (max-width: 550px) {
+  .recipe {
+    width: 100%;
+    padding: 8px;
+    margin: 10px;
+  }
+  .recipe h1 {
+    font-size: 1.4rem;
+  }
+  .image {
+    width: 160px;
+    height: 160px;
+    border: 3px solid red;
+    padding: 2px;
+  }
+  .recipe p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .recipe ul {
+    line-height: 1.5em;
+  }
+}
